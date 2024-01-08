@@ -1,0 +1,24 @@
+{
+  "name": "frontend-ca",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.5.2",
+    "axios": "^0.21.1",
+    "eslint-cli": "^1.1.1",
+    "global": "^4.4.0",
+    "js-beautify": "^1.13.13",
+    "next": "10.2.3",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.8.1",
+    "react-select": "^4.3.1",
+    "yup": "^0.32.9"
+  }
+}

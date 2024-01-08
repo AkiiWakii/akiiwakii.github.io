@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.contact-form{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  
+}
+.submit-button{
+  display: inline-block;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 12px auto;
+  padding: 16px 20px;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+}
+.error-message{
+  color: red;
+}
